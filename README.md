@@ -19,7 +19,7 @@ button, input {
 <body>
 
 <h1>Commande LED Neopixel (BLE)</h1>
-<a href="Joystick.html">
+<a href="Untitled-1.html">
 <button onclick="connect()">🔗 Connexion BLE</button><br>
 </a>
 <label>Couleur :</label><br>
