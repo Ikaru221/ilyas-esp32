@@ -35,9 +35,9 @@ let colorChar;
 let brightChar;
 
 // UUIDs (identiques à l'ESP32)
-const SERVICE_UUID = 'c581f0d5-bda0-452c-9012-f4fda0042202';
-const COLOR_UUID   = 'c581f0d5-bda1-452c-9012-f4fda0042202';
-const BRIGHT_UUID  = 'c581f0d5-bda2-452c-9012-f4fda0042202';
+const SERVICE_UUID = '7c8d9f10-3a50-4e21-9c4d-2f6a7b8c9d01';
+const COLOR_UUID   = '7c8d9f10-3a51-4e21-9c4d-2f6a7b8c9d01';
+const BRIGHT_UUID  = '7c8d9f10-3a52-4e21-9c4d-2f6a7b8c9d01';
 
 async function connect() {
     device = await navigator.bluetooth.requestDevice({
